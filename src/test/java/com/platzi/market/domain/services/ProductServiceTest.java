@@ -5,14 +5,12 @@ import com.platzi.market.domain.Product;
 import com.platzi.market.domain.repository.ProductRepository;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest
 class ProductServiceTest {
 
     @Test
