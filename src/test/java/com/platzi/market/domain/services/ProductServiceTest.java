@@ -1,6 +1,7 @@
 package com.platzi.market.domain.services;
 
 import com.platzi.market.FakeData.FakeProduct;
+import com.platzi.market.PlatziMarketApplication;
 import com.platzi.market.domain.Product;
 import com.platzi.market.domain.repository.ProductRepository;
 import org.junit.jupiter.api.Test;
@@ -12,7 +13,7 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest
+@SpringBootTest(classes = PlatziMarketApplication.class)
 class ProductServiceTest {
 
     @Test
