@@ -17,6 +17,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'com.github.javafaker:javafaker:1.0.2'
 	implementation 'org.mapstruct:mapstruct:1.4.2.Final'
+	implementation 'junit:junit:4.13.1'
 	annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
 
 	runtimeOnly 'org.postgresql:postgresql'
