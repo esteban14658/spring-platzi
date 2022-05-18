@@ -1,23 +1,17 @@
 package com.platzi.market.domain.services;
 
 import com.platzi.market.FakeData.FakeProduct;
-import com.platzi.market.PlatziMarketApplication;
 import com.platzi.market.domain.Product;
 import com.platzi.market.domain.repository.ProductRepository;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.mockito.Mockito;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
 class ProductServiceTest {
 
     @MockBean
